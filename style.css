@@ -1,0 +1,109 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background: url("images/riding.webp") no-repeat center center fixed;
+    height: 100%;
+    background-size: cover;
+    color: #ffffff;
+}
+
+h1, h2, h3, p {
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+
+#head-img {
+    width: 155px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px;
+}
+
+#age {
+    margin-bottom: 3px;
+}
+
+#date {
+    margin-top: 3px;
+}
+
+#glib {
+    margin-bottom: 1px;
+}
+
+#sorry {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 1px
+}
+
+.gift {
+    width: 300px;
+    height: 350px;
+    background-image: url("images/gift6.png");
+    background-size: cover;
+    margin: 0px auto;
+
+}
+
+.transparent-bkgnd {
+    background-image: linear-gradient(to bottom, rgba(234, 225, 176, 0.3), rgba(234, 225, 176, 0));
+    margin: 20px auto;
+    padding: 5px 10px;
+    width: 500px;
+}
+
+.gift:hover {
+    background-image: url("images/fingergif1.gif");
+    width: 350px;
+
+}
+
+.gift2 {
+    width: 300px;
+    height: 350px;
+    background-image: url("images/gift6.png");
+    background-size: cover;
+    margin: 0px auto;
+}
+
+.gift2:hover {
+    background-image: url("images/thumb.gif");
+    width: 350px;
+}
+
+.gift3 {
+    width: 300px;
+    height: 350px;
+    background-image: url("images/gift6.png");
+    background-size: cover;
+    margin: 0px auto;
+}
+
+.gift3:hover {
+    background-image: url("images/loser2.gif");
+    width: 500px;
+}
+
+#footer {
+    color: #ffffff;
+    font-size: 40px;
+    text-shadow: 0 0 1px;
+    font-weight: bolder;
+}
+
+a:link {
+    color: bisque;
+}
